@@ -6,7 +6,23 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 
- 
+ .containers {
+  font-weight: bold;
+  font-size: 15px;
+  display: flex;
+  border: 0px solid black;
+  margin-left: 500px;
+  height: 100px;
+  width: 495px;
+
+}
+
+.boxs {
+  flex: 1;
+  margin: 15px;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
 
 
 .imgnew
