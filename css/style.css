@@ -9735,6 +9735,8 @@ h4, h5, h6 {
   .view2{
     display:block;
   }
+  #more {display: none;}
+
   .navbar-toggler-icon {
     display: none;
   }
