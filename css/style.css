@@ -9727,14 +9727,19 @@ h4, h5, h6 {
 
 .view2{
   display: none;
+  
 }
 @media (max-width: 480px) {
+  #more {display: none;}
+
   .view1{
     display: none;
+    visibility : hidden;
   }
   .view2{
     display:block;
   }
+  
   .navbar-toggler-icon {
     display: none;
   }
