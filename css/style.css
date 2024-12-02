@@ -9723,9 +9723,18 @@ h4, h5, h6 {
   list-style-type: none;
 }
 
+#more {display: none;}
 
-
+.view2{
+  display: none;
+}
 @media (max-width: 480px) {
+  .view1{
+    display: none;
+  }
+  .view2{
+    display:block;
+  }
   .navbar-toggler-icon {
     display: none;
   }
