@@ -18,12 +18,18 @@
 }
 
 .boxs {
+  color: white;
+  background: #22395d;
   flex: 1;
   margin: 15px;
   padding: 20px;
   border: 1px solid #ccc;
 }
 
+#myBtn{
+  color: white;
+  background: #22395d;
+}
 
 .imgnew
 {
@@ -9618,6 +9624,7 @@ h4, h5, h6 {
 }
 
 .section-title {
+
   margin-bottom: 30px;
   padding-bottom: 20px;
 }
@@ -9758,4 +9765,12 @@ h4, h5, h6 {
   .email{
     font-size: 14px;
   }
+  .navButton{
+    border: hidden;
+  }
+  #myBtn{
+    color: white;
+    background: #22395d;
+  }
+  
 }
